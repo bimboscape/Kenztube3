@@ -10,6 +10,7 @@
 
 3) Navigate to your projects directory and insert this into your terminal
 	python3 -m venv <kenztube> #replace <kenztube> with the kenztube directory, wherever you decided to put it.
+	OR use the virtual environment creation script provided.
 
 4) Activating the virtual environment:
 	<myenv\Scripts\activate> #On windows
