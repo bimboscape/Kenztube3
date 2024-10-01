@@ -1,0 +1,27 @@
+1) Make sure python is installed on your system:
+	python3 --version
+       or
+	python --version
+
+2) If It's not already installed:
+	sudo apt-get install python3-venv
+	sudo dnf install python3-venv
+	sudo pacman -S python3-venv
+
+3) Navigate to your projects directory and insert this into your terminal
+	python3 -m venv <kenztube> #replace <kenztube> with the kenztube directory, wherever you decided to put it.
+
+4) Activating the virtual environment:
+	<myenv\Scripts\activate> #On windows
+	source <kenztube/bin/activate> #On MacOS and Linux
+    #replace where the < > is with the directory your kenztube directory followed by /activate :3
+
+5) Next in your terminal, with the Virtual Environment activated:
+	type: "pip install yt-dlp"
+
+How to open script:
+	you can open it by activating the virtual environment then typing:
+	python3 kenztube2.0.py
+
+Enjoy!
+
